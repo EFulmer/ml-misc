@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ml-misc"
+version = "0.0.1"
+description = "Various small machine learning-related things, primarily implementing and playing around with different techniques/algorithms."
+authors = ["Eric R. Fulmer <2952996+EFulmer@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ml_misc"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipython = "^8.32.0"
+numpy = "^2.2.2"
+flake8 = "^7.1.1"
+black = "^25.1.0"
+ipdb = "^0.13.13"
+scikit-learn = "^1.6.1"
+matplotlib = "^3.10.0"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
