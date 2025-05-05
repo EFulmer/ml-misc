@@ -19,6 +19,8 @@ pandas = "^2.2.3"
 jupyter = "^1.1.1"
 feast = {extras = ["postgres", "redis"], version = "^0.49.0"}
 ipython = "8.18.1"
+torch = "^2.7.0"
+torchvision = "^0.22.0"
 
 
 [build-system]
