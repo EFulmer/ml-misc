@@ -23,6 +23,7 @@ torch = "^2.7.0"
 torchvision = "^0.22.0"
 matplotlib = ">=3.3.3,<3.8"
 seaborn = "^0.13.2"
+xgboost = "2.1.4"
 
 
 [build-system]
